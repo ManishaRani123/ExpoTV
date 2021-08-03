@@ -1,0 +1,317 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding: 0;}
+
+body{font-family: 'Poppins', sans-serif;}
+
+.only-mob{display:none;}
+
+.new-design{ 
+	background:#828282 url("../images/booth.png") no-repeat 0% 0%;
+	background-size: contain;
+	min-height: 650px;
+}
+
+.p-logo {
+    position: relative;
+    left: 10em;
+    padding: 25px 0px 14px;
+    width: 40%;
+    display: inline-block;
+}
+
+.p-logo img {
+    width: 250px;
+    height:65px;
+}
+
+.about-cat-sec{
+    background-color:#fff;
+    padding:20px 0;
+}
+
+.cat-title{font-size:30px;color:#000;font-weight:600;}
+
+.cat-main-sec {
+    position: relative;
+    padding: 0px 50px 0px 40px;
+}
+
+.cat-main-sec img{height:475px;}
+
+.main-head{
+	position:relative;
+	font-size:40px;
+	font-weight:600;
+	color:#fff;
+	margin-bottom:50px;
+}
+
+.main-head:after {
+    content: '';
+    position: relative;
+    width: 150px;
+    height: 4px;
+    background-color: #fefefe;
+    display: block;
+    margin-top: 10px;
+}
+
+.cat-box {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 4px 2px rgb(0 0 0 / 4%);
+    padding:10px 20px;
+}
+
+ul.contact-list-cat {
+    list-style: none;
+}
+
+ul.contact-list-cat li {
+    display:inline-block;
+    width:48%;
+    vertical-align:top;
+}
+
+ul.contact-list-cat li i {
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+
+.cat-sec {
+    position: relative;
+	padding:20px 0 40px;
+	background-color:#fff;
+}
+
+.cat-img {
+    background-color: #fff;
+    text-align: center;
+	padding:10px 0;
+}
+
+.cat-img h3{font-size:30px;font-weight:600;line-height:34px;margin:0;padding-bottom:10px;}
+
+.cat-text {
+    background-color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+	text-align:center;
+}
+
+.cat-text h3{font-size:26px;font-weight:600;margin:0 0 10px;}
+
+.cat-text p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #333;
+}
+
+.cat-text a {
+    background-color: #2173e0;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.back-top{
+	position:relative;
+}
+
+a.scrolltop1 {
+    background-color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+	cursor:pointer;
+}
+
+a.scrolltop1:hover {
+    background-color:#000;
+	color:#fff;
+	text-decoration:none;
+}
+
+@media (min-width: 1200px) and (max-width: 1275px){
+    .new-design{min-height:600px;}
+    .new-design .container {width: 1110px;}
+	.p-logo{padding:23px 0 5px;}
+    .cat-main-sec img {height: 435px;}
+    .cat-main-sec {padding: 0px 100px 0px 40px;}
+}
+
+@media (min-width: 1280px) and (max-width: 1290px){
+    .new-design{min-height:585px;}
+    .new-design .container {width: 1110px;}
+	.p-logo{padding:23px 0 5px;}
+    .cat-main-sec img {height: 435px;}
+    .cat-main-sec {padding: 0px 100px 0px 40px;}
+}
+
+@media (min-width: 1400px) and (max-width: 1450px){
+	.p-logo{padding:25px 0 14px;}
+	.container {width: 1250px;}
+	.cat-main-sec {padding: 0px 120px 0px 40px;}
+	.cat-main-sec img {height: 480px;}
+}
+
+@media (min-width: 1600px) and (max-width: 1650px){
+    .new-design{height:800px;}
+    .new-design .container{width:1280px;}
+    .p-logo {left: 8em;padding: 32px 0 10px;}
+    .p-logo img {width: 350px;height:85px !important;}
+    .cat-main-sec {padding: 0px 0px 0px 15px;}
+    .cat-main-sec img {height: 600px;max-width:1030px !important;}
+    .cat-title {font-size: 45px;font-weight: 700;}
+    .p-logo{left:5em;}
+}
+
+@media (min-width: 1660px) and (max-width: 1680px){
+    .new-design{height:800px;}
+    .p-logo img {width: 350px;height:85px !important;}
+     .new-design .container{width:1280px;}
+    .cat-main-sec img {height: 600px;max-width:1020px !important;}
+    .cat-title {font-size: 45px;font-weight: 700;}
+    .p-logo{left:5em;padding: 30px 0px 10px;}
+    .cat-main-sec {padding: 0px 0px 0px 0px;}
+}
+
+@media (min-width: 1900px) and (max-width: 1920px){
+    .container {width: 1280px;}
+    .new-design{height:870px;}
+    .p-logo img {width: 400px;height:85px !important;}
+     .new-design .col-md-10.col-md-offset-1 {margin-left: 0px;}
+     .cat-main-sec{padding:0;}
+     .cat-main-sec img {height: 660px;max-width: 1130px;}
+    .cat-title {font-size: 45px;font-weight: 700;}
+    .cat-main-sec img {height: 652px;}
+    .p-logo {left: 0em;width: 50%;padding: 40px 0px 10px;}
+}
+
+@media (min-width: 2200px) and (max-width: 2700px){
+    .new-design{min-height:1000px;background-position:50% 0%;}
+    .new-design .container {width: 1660px;}
+    .p-logo img {width: 360px;height: 100px;}
+    .p-logo {padding: 40px 0px 20px;}
+    .cat-main-sec img {height: 750px;}
+    .cat-main-sec {padding: 0px 0px 0px 75px;}
+}
+
+@media (min-width: 960px) and (max-width: 1030px){
+    .new-design {background: #828282 url(https://www.expotv.com.au/demo/images/Booth.jpg) no-repeat 0% 0%;background-size: contain;min-height: 500px;}
+	.p-logo {position: relative;left: 7em;padding: 20px 0px 3px;width: auto;display: inline-block;}
+	.p-logo img {width: 215px;height:50px !important;}
+	.cat-main-sec img {height: 380px;}
+	.cat-main-sec {padding-left: 75px;padding-right: 60px;}
+}
+
+@media(min-width: 320px) and (max-width: 560px){
+	.only-mob{display:block;}
+	.only-desk{display:none;}
+	.new-design {background: #828282 url(https://www.expotv.com.au/demo/images/bg-mob.png) no-repeat 0% 0%;background-size: cover;min-height: 240px;}
+	.cat-list-box {margin: 10px 5px 10px;}
+	.new-design .col-md-6 .col-md-8{padding:0px;}
+	.p-logo {left: 0em;padding: 6px 45px 0px;width:auto;}
+	.p-logo img {width: 90px;}
+	.cat-main-sec {position: relative;padding: 0px 50px 0px 66px;}
+	.main-head{font-size:30px;}
+}
+
+@media(min-width: 480px) and (max-width: 485px){
+.p-logo {padding: 8px 45px 2px;}  
+.p-logo img {width: 90px;height: 24px !important;}
+.new-design{min-height:290px;}
+.cat-main-sec {padding:0px 60px 0px 80px;}
+.cat-main-sec img {height: 180px !important;}
+}
+
+@media(min-width: 561px) and (max-width: 768px){
+	.only-mob{display:block;}
+	.only-desk{display:none;}
+	.new-design {background: #828282 url(https://www.expotv.com.au/demo/images/bg-tab.png) no-repeat 0% 0%;background-size:cover;min-height: 400px;}
+	.cat-list-box {margin: 10px 5px 10px;}
+	.new-design .col-md-6 .col-md-8{padding:0px;}
+	.p-logo {left: 3em;padding: 14px 0px 0px;width:auto;}
+	.p-logo img {width: 180px;}
+	.cat-main-sec {position: relative;padding: 10px 40px 0px 115px;}
+	.p-main-content {padding: 15px 15px;margin-top: -20px;margin-left: 5px;margin-right: 5px;}
+	.main-head{font-size:30px;}
+	.cat-main-sec img {height: auto;}
+}
+
+@media(min-width: 767px) and (max-width: 768px){
+    .new-design{background-size:cover !important;min-height:410px;}
+    .p-logo img {width: 165px;height: 32px !important;}
+    .cat-main-sec img {height: 290px;max-width: 500px;}
+    .cat-main-sec {padding: 10px 40px 0px 130px;}
+    .p-logo {left: 3em;padding: 14px 55px 0px;width: auto;}
+}
+
+@media(min-width: 800px) and (max-width: 900px){
+    .new-design{background-size:contain !important;}
+    .p-logo {left: 4em;padding: 20px 0px 4px;}
+    .p-logo img {width: 136px;height:40px;}
+    .cat-main-sec {padding: 0px 70px 0px 120px;}
+    .cat-main-sec img {height: 295px !important;max-width: 510px;}
+    .new-design{min-height:400px;}
+}
+
+@media(min-width: 590px) and (max-width: 600px){
+    .new-design{min-height:335px;}
+    .p-logo img {width: 136px; height:26px !important;}
+    .cat-main-sec {padding: 0px 30px 0px 60px;}
+    .cat-main-sec img {height: 235px !important;max-width:390px;}
+}
+
+@media(min-width: 620px) and (max-width: 640px){
+.new-design{min-height:345px;}    
+.p-logo img {width: 155px;height: 30px !important;}
+.cat-main-sec {padding: 0px 85px 0px 115px;}
+.cat-main-sec img {height: 246px !important;}
+}
+
+@media(min-width: 320px) and (max-width: 360px){
+    .p-logo {left: 0em;padding: 3px 37px 0px;width: auto;}
+	.p-logo img {width: 50px;height:16px !important;}
+	.cat-main-sec img {height: 125px !important;}
+	.cat-main-sec {padding: 0px 35px 0px 48px;}
+	.new-design {min-height: 170px;}
+}
+
+@media(min-width: 360px) and (max-width: 365px){
+    .p-logo {left: 0em;padding: 6px 37px 0px;width: auto;}
+    .new-design{min-height:195px;}
+    .p-logo img {width: 75px;height: 17px !important;}
+    .cat-main-sec img {height: 135px !important;}
+    .cat-main-sec {padding: 0px 40px 0px 55px;}
+}
+
+@media(min-width: 370px) and (max-width: 375px){
+    .new-design{min-height:200px;}
+    .p-logo img {width: 80px;height: 19px !important;}
+    .cat-main-sec {padding: 0px 40px 0px 58px;}
+    .cat-main-sec img {height: 142px !important;}
+}
+
+@media(min-width: 380px) and (max-width: 385px){
+    .new-design{min-height:190px;}
+    .p-logo img {width: 90px;height: 20px !important;}
+    .cat-main-sec img {height: 145px !important;}
+    .cat-main-sec {padding: 0px 50px 0px 60px;}
+}
+
+@media(min-width: 412px) and (max-width: 414px){
+    .new-design{min-height:220px;}
+    .p-logo img {width: 80px;height: 22px !important;}
+    .cat-main-sec img {height: 155px !important;}
+}

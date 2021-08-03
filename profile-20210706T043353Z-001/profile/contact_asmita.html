@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+     
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="topbar">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="logo.jpg" alt="" class="img-fluid" width="300" />
+            </div>
+
+            <div class="col-md-3 col-md-offset-3">
+              <ul class="styled-list">
+                <li>Welcome,User</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="navbar-style">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <!-- <a href="" class="navitem">Home</a> -->
+            </div>
+
+            <div class="col-md-3">
+              <a href="" class="navitem">Home Show Categories</a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="" class="navitem">Blog</a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="" class="navitem">Exibit Now</a>
+            </div>
+            <!-- <ul class="nav-list">
+                        <li>Home</li>
+                        <li>Blog</li>
+                        <li>Exibit Now</li>
+                    </ul> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="profile-left">
+              <div class="profile-details">
+                <h4 class="mt-2 text-center">Asmita Pandey</h4>
+                <div class="profile-img">
+                  <img src="asmita.jpg" alt="" width="100" class="img-fluid" />
+                </div>
+
+                <a class="btn btn-info">View Public Listing</a>
+                
+              </div>
+              <div class="profile-nav">
+                <div class="profile-list">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a href="dashboard.html">
+                          <i class="fa fa-home"></i> My Dashboard
+                        </a>
+                      </h4>
+                    </div>
+                  </div>
+
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a
+                          data-toggle="collapse"
+                          href="#profile"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="profile"
+                        >
+                          <i class="fa fa-user-circle"></i> Manage Profiles
+                          <i class="pull-right fa fa-caret-down"></i>
+                        </a>
+
+                        <div class="collapse" id="profile">
+                          <div class="card card-body">
+                            <ul class="sublist">
+                              <li>- Contact Details</li>
+                              <li>- Profile Photo</li>
+                              <li>- Listing Detail</li>
+                              <li>- About</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </h4>
+                    </div>
+                  </div>
+
+                   
+
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a
+                          data-toggle="collapse"
+                          href="#account"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="account"
+                        >
+                          <i class="fa fa-cog"></i> Account
+                          <span class="pull-right">
+                            <i class="fa fa-caret-down"></i>
+                          </span>
+                        </a>
+
+                        <div class="collapse" id="account">
+                          <div class="card card-body">
+                            <ul class="sublist">
+                              <li>- Billing info</li>
+                              <li>- Change Password</li>
+                              <li>- Manage Account</li>
+                              <li>- Contact us</li>
+                              <li>- Logout</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-9">
+            <ul class="btn-list">
+              <li>
+                <a href="" class="bg-yellow"></a>
+                <a href="" class=""
+                  ><i class="fa fa-check-square-o"></i> Contact Details</a
+                >
+              </li>
+              <li>
+                <a href="" class=""
+                  ><i class="fa fa-check-square-o"></i> Profile Photo</a
+                >
+              </li>
+              <li>
+                <a href="" class=""
+                  ><i class="fa fa-check-square-o"></i> Listing Details</a
+                >
+              </li>
+              <li>
+                <a href="" class="">
+                <i class="fa fa-exclamation-triangle"></i> About Me</a
+                >
+              </li>
+            </ul>
+            <div>
+              <h2><i class="fa fa-user"></i><b> Contact Detail</b></h2>
+            </div>
+
+            <div class="well bg-white">
+
+            <div class='account-form-box'>
+                    <style type="text/css">
+                        label span.required {
+                            color: #B94A48;
+                        }
+
+                        span.help-inline,
+                        span.help-block {
+                            font-size: .9em;
+                        }
+                    </style>
+                    <form action="/account/contact/c7ae9ff8311f908467f2fbf53a1b2d64" id="myform" method="post"
+                        labelwidth="100" labelpaddingtop="0.5em" enctype="multipart/form-data"
+                        form_action_type="default" form_action_div return_data_type="" name="member_contact_details"
+                        class="form-horizontal"><input type="hidden" name="sized" value="0"
+                            id="myform-element-0" /><input type="hidden" name="form" value="myform"
+                            id="myform-element-1" /><input type="hidden" name="formname" value="member_contact_details"
+                            id="myform-element-2" /><input type="hidden" name="dowiz" value="1"
+                            id="myform-element-3" /><input type="hidden" name="save" value="1" id="myform-element-4" />
+                         
+                        <div class='clear clearfix'></div>
+                        <p class='account-tip'>To activate your listing, please fill in all of the required fields
+                            below.</p>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-"
+                                    for="myform-element-7"><span class="required">* </span>Type of Listing</label></div>
+                            <div class="col-sm-9"><select name="listing_type" required autocomplete="off"
+                                    class="form-control" id="myform-element-7">
+                                    <option value="Company" selected="selected">Company / Organization</option>
+                                    <option value="Individual">Personal / Individual</option>
+                                </select></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-"
+                                    for="myform-element-8"><span class="required">* </span>Best Describes You</label>
+                            </div>
+                            <div class="col-sm-9"><select name="profession_id" required autocomplete="off"
+                                    class="form-control combobox" id="myform-element-8">
+                                    <option value="">(Select from List)</option>
+                                    <option value="16">Bathroom</option>
+                                    <option value="17">Bedroom</option>
+                                    <option value="18">Building Materials</option>
+                                    <option value="31">Design Services</option>
+                                    <option value="35">Dining Room</option>
+                                    <option value="20">Doors & Windows</option>
+                                    <option value="21">Finance & Legal Services</option>
+                                    <option value="22">Flooring</option>
+                                    <option value="23">Furniture</option>
+                                    <option value="36">Gardening</option>
+                                    <option value="37">Heating & Cooling</option>
+                                    <option value="15">Home Appliances</option>
+                                    <option value="24">Home Builders</option>
+                                    <option value="25">Home Entertainment</option>
+                                    <option value="26">Home Security</option>
+                                    <option value="32">Homemaker Centres</option>
+                                    <option value="27">Kitchen</option>
+                                    <option value="28">Lighting</option>
+                                    <option value="29">Outdoor Living</option>
+                                    <option value="30">Sustainable Homes</option>
+                                </select><span class="help-block form-field-help-block">Choose your main category, then
+                                    select sub-level categories in the Additional Details tab</span></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-text"
+                                    for="myform-element-9"><span class="required">* </span>First Name</label></div>
+                            <div class="col-sm-9"><input type="text" name="first_name" required autocomplete="off" value
+                                    class="form-control" id="myform-element-9" /></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-text"
+                                    for="myform-element-10"><span class="required">* </span>Last Name</label></div>
+                            <div class="col-sm-9"><input type="text" name="last_name" required autocomplete="off" value
+                                    class=" form-control " id="myform-element-10" /></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-email"
+                                    for="myform-element-11"><span class="required">* </span>Email Address</label></div>
+                            <div class="col-sm-9"><input type="email" name="email" required autocomplete="off"
+                                    value="itsmeasmitapandey@gmail.com" class="email form-control "
+                                    id="myform-element-11" /></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-tel"
+                                    for="myform-element-12">Phone Number</label></div>
+                            <div class="col-sm-9"><input type="tel" name="phone_number" autocomplete="off" value
+                                    class="form-control " id="myform-element-12" /></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-text"
+                                    for="myform-element-13">Company Name</label></div>
+                            <div class="col-sm-9"><input type="text" name="company" autocomplete="off" value
+                                    class=" form-control " id="myform-element-13" /></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-text"
+                                    for="myform-element-14">Your Position</label></div>
+                            <div class="col-sm-9"><input type="text" name="position" autocomplete="off" value
+                                    class=" form-control " id="myform-element-14" /></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-"
+                                    for="myform-element-15">Short Description</label></div>
+                            <div class="col-sm-9"><textarea rows="4" name="search_description"
+                                    placeholder="Tell us about yourself..." autocomplete="off" class="form-control"
+                                    id="myform-element-15"></textarea><span
+                                    class="help-block form-field-help-block">Displays under your name on search result
+                                    pages (170 Character Limit)</span></div>
+                        </div>
+                        <p class='account-menu-title'>Where Are You Located?</p>
+                        <div class='clear clearfix'></div>
+                        <div class="well">
+                            <input id="pac-input" class="controls form-control google-writen-location bmargin input-lg"
+                                type="text" placeholder="Enter a location: 350 Fifth Avenue, New York, NY 10118"
+                                autocomplete="off">
+                            <div id="map-canvas"></div>
+                            <label class="fill-location-check">
+                                <input type="checkbox" class="fill-change-marker">
+                                Fill in the location fields below based on where I move the marker on the map above
+                            </label>
+                            <div class="clearfix"></div>
+                        </div>
+                        <input type="hidden" name="country_sn" value="">
+                        <input type="hidden" name="state_sn" value="">
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-text"
+                                    for="myform-element-18">Address Line 1</label></div>
+                            <div class="col-sm-9"><input type="text" name="address1" autocomplete="off" value
+                                    class=" form-control " id="myform-element-18" /><span
+                                    class="help-block form-field-help-block">Optional</span></div>
+                        </div><input type="hidden" name="lat" autocomplete="off" value id="myform-element-19" /><input
+                            type="hidden" name="lon" autocomplete="off" value id="myform-element-20" />
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-text"
+                                    for="myform-element-21">Address Line 2</label></div>
+                            <div class="col-sm-9"><input type="text" name="address2" autocomplete="off" value
+                                    class=" form-control " id="myform-element-21" /><span
+                                    class="help-block form-field-help-block">Optional</span></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-text"
+                                    for="myform-element-22">City</label></div>
+                            <div class="col-sm-9"><input type="text" name="city" autocomplete="off" value
+                                    class=" form-control " id="myform-element-22" /></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-text"
+                                    for="myform-element-23">State</label></div>
+                            <div class="col-sm-9"><input type="text" name="state_ln" autocomplete="off" value
+                                    class=" form-control " id="myform-element-23" /><span
+                                    class="help-block form-field-help-block">Automatically assigned based on the
+                                    location you input above the map</span></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-text"
+                                    for="myform-element-24">Country</label></div>
+                            <div class="col-sm-9"><input type="text" name="country_ln" autocomplete="off" value
+                                    class=" form-control " id="myform-element-24" /><span
+                                    class="help-block form-field-help-block">Automatically assigned based on the
+                                    location you input above the map</span></div>
+                        </div><input type="hidden" name="country_code" autocomplete="off" value="AU"
+                            id="myform-element-25" /><input type="hidden" name="state_code" autocomplete="off" value
+                            id="myform-element-26" />
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-text"
+                                    for="myform-element-27">Enter Postal Code</label></div>
+                            <div class="col-sm-9"><input type="text" name="zip_code" autocomplete="off" value
+                                    class=" form-control " id="myform-element-27" /><span
+                                    class="help-block form-field-help-block">LEAVE BLANK IF THIS DOES NOT APPLY TO YOUR
+                                    COUNTRY</span></div>
+                        </div>
+                        <p class='account-menu-title'>Enter Website Links</p>
+                        <div class='clear clearfix'></div>
+                        <p class='account-tip'>Dont forget to include the http://www.</p>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-url"
+                                    for="myform-element-30">Website <i class="fa fa-globe"></i></label></div>
+                            <div class="col-sm-9"><input type="url" name="website" autocomplete="off" value
+                                    class="website form-control  website_url_field" id="myform-element-30" /><span
+                                    class="help-block form-field-help-block">ex: https://www.mywebsite.com</span></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-url"
+                                    for="myform-element-31">Calendar <i class="fa fa-calendar"></i></label></div>
+                            <div class="col-sm-9"><input type="url" name="booking_link" autocomplete="off" value
+                                    class="website form-control  website_url_field" id="myform-element-31" /><span
+                                    class="help-block form-field-help-block">Enter external link where visitors can book
+                                    appointments with you</span></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-url"
+                                    for="myform-element-32">Blog <i class="fa fa-rss"></i></label></div>
+                            <div class="col-sm-9"><input type="url" name="blog" autocomplete="off" value
+                                    class="website form-control  website_url_field" id="myform-element-32" /><span
+                                    class="help-block form-field-help-block">ex: https://www.myblog.com</span></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-url"
+                                    for="myform-element-33">Facebook <i class="fa fa-facebook"></i></label></div>
+                            <div class="col-sm-9"><input type="url" name="facebook" autocomplete="off" value
+                                    class="website form-control  website_url_field" id="myform-element-33" /><span
+                                    class="help-block form-field-help-block">ex:
+                                    https://www.facebook.com/your_name</span></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-url"
+                                    for="myform-element-34">YouTube <i class="fa fa-play-circle"></i></label></div>
+                            <div class="col-sm-9"><input type="url" name="youtube" autocomplete="off" value
+                                    class="website form-control  website_url_field" id="myform-element-34" /><span
+                                    class="help-block form-field-help-block">ex:
+                                    https://www.youtube.com/your_name</span></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-url"
+                                    for="myform-element-35">Twitter <i class="fa fa-twitter"></i></label></div>
+                            <div class="col-sm-9"><input type="url" name="twitter" autocomplete="off" value
+                                    class="website form-control  website_url_field" id="myform-element-35" /><span
+                                    class="help-block form-field-help-block">ex:
+                                    https://www.twitter.com/your_name</span></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-url"
+                                    for="myform-element-36">Pinterest <i class="fa fa-pinterest-p"></i></label></div>
+                            <div class="col-sm-9"><input type="url" name="pinterest" autocomplete="off" value
+                                    class="website form-control  website_url_field" id="myform-element-36" /><span
+                                    class="help-block form-field-help-block">ex:
+                                    https://www.pinterest.com/your_name</span></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-url"
+                                    for="myform-element-37">LinkedIn <i class="fa fa-linkedin"></i></label></div>
+                            <div class="col-sm-9"><input type="url" name="linkedin" autocomplete="off" value
+                                    class="website form-control  website_url_field" id="myform-element-37" /><span
+                                    class="help-block form-field-help-block">ex:
+                                    https://www.linkedin.com/in/your_name</span></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 text-right norpad"><label class="control-label bd-url"
+                                    for="myform-element-38">Instagram <i class="fa fa-instagram"></i></label></div>
+                            <div class="col-sm-9"><input type="url" name="instagram" autocomplete="off" value
+                                    class=" form-control  website_url_field" id="myform-element-38" /><span
+                                    class="help-block form-field-help-block">ex:
+                                    https://www.instagram.com/your_name</span></div>
+                        </div>
+                        <div class="form-actions"><input type="submit" value="Save &amp; Continue" name
+                                class="btn btn-lg btn-success col-sm-offset-3 " id="myform-element-40" /></div>
+                    </form>
+                     
+                </div>
+                <div class="clearfix clearfix-lg footer-clear-element"></div>
+
+            </div>
+            </div>
+             
+
+            </div>
+            <div class="clearfix clearfix-lg footer-clear-element">
+
+            </div>
+            </div>
+
+        <style type='text/css'>
+            .newsletter_row input[type="email"] {
+                float: none;
+                margin-left: auto;
+                margin-right: auto;
+                width: 62% !important;
+            }
+        </style>
+
+            <div class="clearfix"></div>
+            </div>
+
+
+            </div>
+            <div class="clearfix"></div>
+
+
+            <div class="footer-bar">
+               
+            </div>
+        
+            <footer>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-3">
+                    <ul class="footer-list">
+                      <li>About EXPOTV</li>
+                      <li>How It Works</li>
+                      <li>FAQ</li>
+                      <li>Blog</li>
+                      <li>Contact Us</li>
+                    </ul>
+                  </div>
+        
+                  <div class="col-md-3">
+                    <ul class="footer-list">
+                      <li>Marketing Platform</li>
+                      <li>Be Discovered</li>
+                      <li>Why Exhibit Online</li>
+                      <li>How To Exhibit</li>
+                    </ul>
+                  </div>
+        
+                  <div class="col-md-3">
+                    <ul class="footer-list2">
+                      <li><h4>Popular Categories</h4></li>
+                      <li>Home Entertainment</li>
+                      <li>Furniture</li>
+                      <li>Kitchen</li>
+                      <li>Bathrooms</li>
+                      <li>Doors and Windows</li>
+                      <li>Sustainable Home</li>
+                      <li>Home Security</li>
+                      <li>Flooring</li>
+                      <li>Outdoor Living</li>
+                    </ul>
+                  </div>
+        
+                  <div class="col-md-3">
+                    <ul class="footer-list2">
+                      <li><h4>Popular Categories</h4></li>
+                      <li>Holiday & Travel Expo</li>
+                      <li>Business to Business Expo</li>
+                      <li>Wedding Expo</li>
+                      <li>Wealth Expo</li>
+                      <li>Healthy Living Expo</li>
+                      <li>Technology Expo</li>
+                      <li>Car Buyers Expo</li>
+                      <li>Parenting Expo</li>
+                      <li>Food & Wine Expo</li>
+                      <li>Fashion Expo</li>
+                    </ul>
+                  </div>
+                </div>
+        
+                <div class="row mtb-30">
+                  <div class="col-md-6">
+                    <ul class="social-list">
+                      <li><i class="fa fa-envelope fa-2x"></i></li>
+                      <li><i class="fa fa-facebook fa-2x"></i></li>
+                      <li><i class="fa fa-linkedin fa-2x"></i></li>
+                    </ul>
+                  </div>
+        
+                  <div class="col-md-6">
+                    <a href="#" class="btn btn-info text-center footer-btn-style"
+                      >EVERY BUSINESS NEEDS AN ONLINE EXHIBITION STAND!<br />
+                      CREATE YOUR STAND NOW »</a
+                    >
+                  </div>
+                </div>
+        
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="text-center copyright">
+                      <small class=""
+                        >© 2021 EXPOTV Online Exhibitions All Rights Reserved. Terms of
+                        Use | Privacy Policy</small
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+
+
+
+
+
+  </body>
+</html>

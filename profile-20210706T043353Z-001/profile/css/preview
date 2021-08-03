@@ -1,0 +1,170 @@
+
+    .image-preview-tag {
+        margin: 0 auto;
+        overflow: hidden;
+        width: 100%;
+    }
+    .profile-preview {
+        height: px;
+    }
+    .thumbnails-preview {
+        height: px;
+    }
+    .preview-container p {
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .image-preview-input input[type=file],
+    .logo-preview-input input[type=file],
+    .cover-preview-input input[type=file] {
+        cursor: pointer;
+        filter: alpha(opacity=0);
+        font-size: 20px;
+        margin: 0;
+        opacity: 0;
+        padding: 0;
+        position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+    }
+    .image-preview-input-title,
+    .cover-preview-input-title,
+    .logo-preview-input-title {
+        margin-left: 2px;
+    }
+    .btn.btn-default.image-preview-input {
+        width: 100%;
+    }
+    .input-group.image-preview {
+        margin: 10px 0px;
+    }
+    .image-controls, .image-controls-cover {
+        margin: 10px 0px;
+		text-align:center;
+    }
+    .image-action-btn {
+        background: rgb(58, 87, 149);
+        border: rgb(58, 87, 149);
+    }
+    .image-action-btn:hover {
+        background: rgb(31, 58, 116);
+        border: rgb(31, 58, 116);
+    }
+    .image-action-btn:focus {
+        background: rgb(31, 58, 116);
+        border: rgb(31, 58, 116);
+    }
+    .image-action-btn:active {
+        background: rgb(31, 58, 116) !important;
+        border: rgb(31, 58, 116) !important;
+    }
+    .preview-container {
+        background: #fff;
+        border-radius: 4px;
+        border: 1px solid #EEE;
+        margin: 5px 0px;
+        padding: 10px;
+        display: none;
+        text-align: center;
+    }
+    .hidden-uploader {
+        display: none;
+    }
+    .hidden-interactive-container {
+        display: none!important;
+    }
+    .current-photo-container,
+    .current-logo-container,
+    .current-cover-container {
+        text-align: center;
+        padding: 19px;
+        display: block;
+        margin-bottom: 15px;
+    }
+    .current-photo-container img,
+    .current-logo-container img,
+    .current-cover-container img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin: 4px;
+    }
+    .change-current-image,
+    .change-current-logo,
+    .change-current-cover {
+        display: inline;
+        font-size: 15px;
+        width: 49%;
+    }
+    .edit-current-image,
+    .edit-current-logo,
+    .edit-current-cover {
+        display: inline-block;
+        font-size: 15px;
+        width: 30%;
+    }
+    .delete-current-image,
+    .delete-current-logo {
+        display: inline-block;
+        width: 49%;
+        font-size: 15px;
+    }
+    input.form-control.image-preview-filename {
+        display: none !important;;
+    }
+    .image-controls, .image-controls-cover {
+        display: none;
+    }
+    .upload-btn-container {
+        margin-top: 7px;
+        width: 100%;
+    }
+    .upload-btn {
+        width: 100%;
+    }
+    input.form-control.logo-preview-filename, input.form-control.cover-preview-filename {
+        width: 45%;
+        display: inline-block;
+        border-radius: 4px 0px 0px 4px !important;
+    }
+    .input-group.logo-preview, .input-group.cover-preview {
+        display: none;
+    }
+    .logo-controls-btn, .cover-controls-btn {
+        margin: 10px 0px;
+        display: none;
+    }
+    .logo-controls-btn .upload-logo, .logo-controls-btn .upload-cover {
+        width: 100%;
+        margin-top: 8px;
+    }
+    .next-step-container {
+        margin-top: 20px;
+    }
+    .pre-process-canvas {
+        display: none;
+    }
+    #logo-preview-img-tag, #cover-preview-img-tag {
+        margin: 0 auto;
+        display: block;
+    }
+    @media (max-width: 1030px) {
+        .change-current-image,
+        .change-current-logo,
+        .change-current-cover {
+            display: block;
+            font-size: 15px;
+            width: 90%;
+            margin: 0 auto 15px auto;
+        }
+        .delete-current-image,
+        .delete-current-logo,
+        .delete-current-cover {
+            display: block;
+            width: 90%;
+            font-size: 15px;
+            margin: 0 auto 15px auto;
+        }
+    }
